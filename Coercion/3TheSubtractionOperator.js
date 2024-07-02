@@ -24,4 +24,6 @@ true conversion ToNumber(true) returns 1
 Output:
 10 - 1 = 9
 
+ToNumber on Strings Docs - https://262.ecma-international.org/10.0/#sec-tonumber-applied-to-the-string-type
+
 */
