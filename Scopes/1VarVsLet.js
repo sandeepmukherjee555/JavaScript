@@ -41,7 +41,9 @@ let declares block scope
 Ex of let 
 Ex 1)
 function gun(){
-console.log(z);//not accessible here,because whenever we declare let it is accessible below the declaration
+console.log(z);//not accessible here,
+because whenever we declare let it is accessible below the declaration,
+so let is visible below that scope only
 let z = 10;
 }
 
@@ -55,4 +57,6 @@ console.log(x); //Output: 1
 Explanation : when we define let x = 2 at line no 24 its a new x that has been initialized 
 In the visibility of this block which is different from which is initilized at line no 22
 
+In parsing js reads the whole code one by one and sarts allocating the variables not the values 
+their corresponding scope 
 */
