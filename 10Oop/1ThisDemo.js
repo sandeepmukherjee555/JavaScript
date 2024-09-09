@@ -26,5 +26,5 @@ macbook.display();
 
 /*
 console.log(this);
-Here this refers to the window Object
+Here this refers to the window Object depending on the runtime 
 */
